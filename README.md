@@ -28,7 +28,6 @@ The project focuses on understanding how JavaScript interacts with the DOM and h
 - Event handling
 - Creating interactive UI components
 - Improving code organization and readability
-- Writing small, meaningful commits
 
 ## Credits
 
