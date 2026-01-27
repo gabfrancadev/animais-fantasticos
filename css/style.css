@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 h1,
 h2,
@@ -102,6 +106,7 @@ body {
   height: 360px;
   overflow-y: auto;
   grid-column: 2;
+  -webkit-overflow-scrolling: touch;
 }
 
 .animais-lista li {

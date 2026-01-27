@@ -46,9 +46,9 @@ function initScrollSuave() {
     event.preventDefault();
     const href = event.currentTarget.getAttribute("href");
     const section = document.querySelector(href);
-    window.scrollTo({
-      top: section.offsetTop,
+    section.scrollIntoView({
       behavior: "smooth",
+      block: "start",
     });
   }
 
