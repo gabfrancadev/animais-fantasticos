@@ -1,0 +1,29 @@
+{
+  "name": "animais-fantasticos",
+  "version": "1.0.0",
+  "description": "This project was developed as part of the JavaScript course from Origamid.  \r The main goal is to practice JavaScript fundamentals through DOM manipulation, events, and interactive behaviors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabfrancadev/animais-fantasticos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gabfrancadev/animais-fantasticos/issues"
+  },
+  "homepage": "https://github.com/gabfrancadev/animais-fantasticos#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0"
+  }
+}
