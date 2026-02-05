@@ -6,7 +6,8 @@ export default function initMenuMobile() {
   const eventos = ["click", "touchstart"];
 
   if (menuButton) {
-    function openMenu() {
+    function openMenu(event) {
+      event.preventDefault();
       menuList.classList.add("active");
       menuButton.classList.add("active");
       outsideClick(menuList, eventos, () => {
